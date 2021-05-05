@@ -7,11 +7,18 @@ int main(int argc, char** argv) {
 
     Lexer* lexer = new Lexer();
 
-    // TODO
-    ifstream testFile("test.txt");
+    //Reading in a file and converting it to a string.
+    string fileArgument = argv[1];
+    ifstream file(fileArgument);
+    string fileContent((std::istreambuf_iterator<char>(file)),
+                       std::istreambuf_iterator<char>());
 
-    if (testfile) {
-        cout << "IT WORKED" << endl;e
+    //Making sure the string exists and passing it to Run.
+    if (fileContent.size() > 0) {
+        lexer->Run(fileContent);
+    }
+    else {
+        cout << "File doesn't exist.";
     }
     delete lexer;
 

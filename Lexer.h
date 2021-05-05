@@ -17,8 +17,10 @@ private:
 public:
     Lexer();
     ~Lexer();
+    int lineNumber;
 
     void Run(std::string& input);
+    void toString();
     
     // TODO: add other public methods here
 

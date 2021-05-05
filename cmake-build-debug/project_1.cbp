@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/macuser/Documents/cs236/project-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/macuser/Documents/cs236/project-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/macuser/Documents/cs236/project-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_1">
+				<Option output="/Users/macuser/Documents/cs236/project-1/cmake-build-debug/project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macuser/Documents/cs236/project-1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/macuser/Documents/cs236/project-1/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_1/fast">
+				<Option output="/Users/macuser/Documents/cs236/project-1/cmake-build-debug/project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macuser/Documents/cs236/project-1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/macuser/Documents/cs236/project-1/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/macuser/Documents/cs236/project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/AddAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/AddAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Automaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/ColonAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/ColonAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/ColonDashAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/ColonDashAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/CommaAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/CommaAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/CommentAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/CommentAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/FactsAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/FactsAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/IdAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/IdAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/LeftParenAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/LeftParenAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Lexer.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Lexer.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/MultiplyAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/MultiplyAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/PeriodAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/PeriodAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/QmarkAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/QmarkAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/QueriesAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/QueriesAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/RightParenAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/RightParenAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/RulesAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/RulesAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/SchemesAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/SchemesAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/StringAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/StringAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Token.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Token.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/main.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
