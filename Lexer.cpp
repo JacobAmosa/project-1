@@ -16,6 +16,8 @@
 #include "IdAutomaton.h"
 #include "StringAutomaton.h"
 #include "CommentAutomaton.h"
+#include "BadCommentAutomaton.h"
+#include "BadStringAutomaton.h"
 
 Lexer::Lexer() {
     CreateAutomata();
@@ -43,6 +45,8 @@ void Lexer::CreateAutomata() {
     automata.push_back(new IdAutomaton());
     automata.push_back(new StringAutomaton());
     automata.push_back(new CommentAutomaton());
+    automata.push_back(new BadCommentAutomaton());
+    automata.push_back(new BadStringAutomaton());
 
 }
 
@@ -57,12 +61,15 @@ void Lexer::Run(std::string& input) {
         maxRead = 0;
         maxAutomaton = automata[0];
         //skipping white space and checking for EOF.
-        if (isspace(input[0])){
+        while (!input.empty() && isspace(input[0])){
+            //Checking for new lines.
+            if (input[0] == '\n'){
+                lineNumber++;
+            }
             input.erase(0, 1);
         }
-        //Checking for new lines.
-        if (input[1] == '\n'){
-            lineNumber++;          //FIX ME :(
+        if (input.empty()){
+            break;
         }
         //Going through each F.S.A and checking if it matches (will return 1 if matches) Parallel portion.
         for(Automaton* automaton: automata){
@@ -75,7 +82,7 @@ void Lexer::Run(std::string& input) {
         //After finding the right F.S.A,creates a new token and adds it to the token vector.
         if (maxRead > 0){
             Token* newToken = maxAutomaton->CreateToken(input.substr(0,maxRead), lineNumber);
-            maxAutomaton->NewLinesRead();
+            lineNumber += maxAutomaton->NewLinesRead();
             tokens.push_back(newToken);
         }
         else {
@@ -84,6 +91,7 @@ void Lexer::Run(std::string& input) {
         }
         input.erase(0, maxRead);
     }
+    tokens.push_back(new Token(TokenType::EOF_TYPE, "", lineNumber + 1));
     toString();
 }
 

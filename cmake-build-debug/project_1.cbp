@@ -91,6 +91,18 @@
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/Automaton.h">
 			<Option target="project_1"/>
 		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/BadCommentAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/BadCommentAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/BadStringAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/BadStringAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/ColonAutomaton.cpp">
 			<Option target="project_1"/>
 		</Unit>

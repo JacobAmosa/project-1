@@ -14,6 +14,10 @@ void StringAutomaton::S0(const std::string& input) {
 void StringAutomaton::S1(const std::string& input) {
     bool closing = false;
     for (int i = 0; i < input.size() - 1; ++i){
+        //Checking for new lines.
+        if (input[index] == '\n'){
+            newLines++;
+        }
         if (input[index] == '\'') {
             inputRead++;
             closing = true;

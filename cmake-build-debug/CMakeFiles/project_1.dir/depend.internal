@@ -6,6 +6,16 @@ CMakeFiles/project_1.dir/AddAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/AddAutomaton.h
  /Users/macuser/Documents/cs236/project-1/Automaton.h
  /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/BadCommentAutomaton.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Automaton.h
+ /Users/macuser/Documents/cs236/project-1/BadCommentAutomaton.cpp
+ /Users/macuser/Documents/cs236/project-1/BadCommentAutomaton.h
+ /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/BadStringAutomaton.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Automaton.h
+ /Users/macuser/Documents/cs236/project-1/BadStringAutomaton.cpp
+ /Users/macuser/Documents/cs236/project-1/BadStringAutomaton.h
+ /Users/macuser/Documents/cs236/project-1/Token.h
 CMakeFiles/project_1.dir/ColonAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
  /Users/macuser/Documents/cs236/project-1/ColonAutomaton.cpp
@@ -44,6 +54,8 @@ CMakeFiles/project_1.dir/LeftParenAutomaton.cpp.o
 CMakeFiles/project_1.dir/Lexer.cpp.o
  /Users/macuser/Documents/cs236/project-1/AddAutomaton.h
  /Users/macuser/Documents/cs236/project-1/Automaton.h
+ /Users/macuser/Documents/cs236/project-1/BadCommentAutomaton.h
+ /Users/macuser/Documents/cs236/project-1/BadStringAutomaton.h
  /Users/macuser/Documents/cs236/project-1/ColonAutomaton.h
  /Users/macuser/Documents/cs236/project-1/ColonDashAutomaton.h
  /Users/macuser/Documents/cs236/project-1/CommaAutomaton.h

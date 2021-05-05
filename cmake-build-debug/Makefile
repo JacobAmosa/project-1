@@ -150,6 +150,60 @@ AddAutomaton.cpp.s:
 	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/AddAutomaton.cpp.s
 .PHONY : AddAutomaton.cpp.s
 
+BadCommentAutomaton.o: BadCommentAutomaton.cpp.o
+
+.PHONY : BadCommentAutomaton.o
+
+# target to build an object file
+BadCommentAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/BadCommentAutomaton.cpp.o
+.PHONY : BadCommentAutomaton.cpp.o
+
+BadCommentAutomaton.i: BadCommentAutomaton.cpp.i
+
+.PHONY : BadCommentAutomaton.i
+
+# target to preprocess a source file
+BadCommentAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/BadCommentAutomaton.cpp.i
+.PHONY : BadCommentAutomaton.cpp.i
+
+BadCommentAutomaton.s: BadCommentAutomaton.cpp.s
+
+.PHONY : BadCommentAutomaton.s
+
+# target to generate assembly for a file
+BadCommentAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/BadCommentAutomaton.cpp.s
+.PHONY : BadCommentAutomaton.cpp.s
+
+BadStringAutomaton.o: BadStringAutomaton.cpp.o
+
+.PHONY : BadStringAutomaton.o
+
+# target to build an object file
+BadStringAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/BadStringAutomaton.cpp.o
+.PHONY : BadStringAutomaton.cpp.o
+
+BadStringAutomaton.i: BadStringAutomaton.cpp.i
+
+.PHONY : BadStringAutomaton.i
+
+# target to preprocess a source file
+BadStringAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/BadStringAutomaton.cpp.i
+.PHONY : BadStringAutomaton.cpp.i
+
+BadStringAutomaton.s: BadStringAutomaton.cpp.s
+
+.PHONY : BadStringAutomaton.s
+
+# target to generate assembly for a file
+BadStringAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/BadStringAutomaton.cpp.s
+.PHONY : BadStringAutomaton.cpp.s
+
 ColonAutomaton.o: ColonAutomaton.cpp.o
 
 .PHONY : ColonAutomaton.o
@@ -648,6 +702,12 @@ help:
 	@echo "... AddAutomaton.o"
 	@echo "... AddAutomaton.i"
 	@echo "... AddAutomaton.s"
+	@echo "... BadCommentAutomaton.o"
+	@echo "... BadCommentAutomaton.i"
+	@echo "... BadCommentAutomaton.s"
+	@echo "... BadStringAutomaton.o"
+	@echo "... BadStringAutomaton.i"
+	@echo "... BadStringAutomaton.s"
 	@echo "... ColonAutomaton.o"
 	@echo "... ColonAutomaton.i"
 	@echo "... ColonAutomaton.s"

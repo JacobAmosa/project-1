@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/macuser/Documents/cs236/project-1/AddAutomaton.cpp" "/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/AddAutomaton.cpp.o"
+  "/Users/macuser/Documents/cs236/project-1/BadCommentAutomaton.cpp" "/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/BadCommentAutomaton.cpp.o"
+  "/Users/macuser/Documents/cs236/project-1/BadStringAutomaton.cpp" "/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/BadStringAutomaton.cpp.o"
   "/Users/macuser/Documents/cs236/project-1/ColonAutomaton.cpp" "/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/ColonAutomaton.cpp.o"
   "/Users/macuser/Documents/cs236/project-1/ColonDashAutomaton.cpp" "/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.o"
   "/Users/macuser/Documents/cs236/project-1/CommaAutomaton.cpp" "/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/CommaAutomaton.cpp.o"

@@ -6,6 +6,16 @@ CMakeFiles/project_1.dir/AddAutomaton.cpp.o: ../AddAutomaton.h
 CMakeFiles/project_1.dir/AddAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/project_1.dir/AddAutomaton.cpp.o: ../Token.h
 
+CMakeFiles/project_1.dir/BadCommentAutomaton.cpp.o: ../Automaton.h
+CMakeFiles/project_1.dir/BadCommentAutomaton.cpp.o: ../BadCommentAutomaton.cpp
+CMakeFiles/project_1.dir/BadCommentAutomaton.cpp.o: ../BadCommentAutomaton.h
+CMakeFiles/project_1.dir/BadCommentAutomaton.cpp.o: ../Token.h
+
+CMakeFiles/project_1.dir/BadStringAutomaton.cpp.o: ../Automaton.h
+CMakeFiles/project_1.dir/BadStringAutomaton.cpp.o: ../BadStringAutomaton.cpp
+CMakeFiles/project_1.dir/BadStringAutomaton.cpp.o: ../BadStringAutomaton.h
+CMakeFiles/project_1.dir/BadStringAutomaton.cpp.o: ../Token.h
+
 CMakeFiles/project_1.dir/ColonAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/project_1.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.cpp
 CMakeFiles/project_1.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.h
@@ -43,6 +53,8 @@ CMakeFiles/project_1.dir/LeftParenAutomaton.cpp.o: ../Token.h
 
 CMakeFiles/project_1.dir/Lexer.cpp.o: ../AddAutomaton.h
 CMakeFiles/project_1.dir/Lexer.cpp.o: ../Automaton.h
+CMakeFiles/project_1.dir/Lexer.cpp.o: ../BadCommentAutomaton.h
+CMakeFiles/project_1.dir/Lexer.cpp.o: ../BadStringAutomaton.h
 CMakeFiles/project_1.dir/Lexer.cpp.o: ../ColonAutomaton.h
 CMakeFiles/project_1.dir/Lexer.cpp.o: ../ColonDashAutomaton.h
 CMakeFiles/project_1.dir/Lexer.cpp.o: ../CommaAutomaton.h
