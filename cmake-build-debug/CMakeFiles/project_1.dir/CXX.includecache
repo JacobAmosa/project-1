@@ -10,11 +10,11 @@
 Token.h
 /Users/macuser/Documents/cs236/project-1/Token.h
 
-/Users/macuser/Documents/cs236/project-1/BadStringAutomaton.cpp
-BadStringAutomaton.h
-/Users/macuser/Documents/cs236/project-1/BadStringAutomaton.h
+/Users/macuser/Documents/cs236/project-1/CommentAutomaton.cpp
+CommentAutomaton.h
+/Users/macuser/Documents/cs236/project-1/CommentAutomaton.h
 
-/Users/macuser/Documents/cs236/project-1/BadStringAutomaton.h
+/Users/macuser/Documents/cs236/project-1/CommentAutomaton.h
 Automaton.h
 /Users/macuser/Documents/cs236/project-1/Automaton.h
 

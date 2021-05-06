@@ -13,6 +13,7 @@ public:
     BadStringAutomaton() : Automaton(TokenType::UNDEFINED) {}  // Call the base constructor
 
     void S1(const std::string& input);
+    void S2(const std::string& input);
 
 };
 

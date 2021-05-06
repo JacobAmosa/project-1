@@ -57,9 +57,22 @@ include CMakeFiles/project_1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/project_1.dir/flags.make
 
+CMakeFiles/project_1.dir/main.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_1.dir/main.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/main.cpp.o -c /Users/macuser/Documents/cs236/project-1/main.cpp
+
+CMakeFiles/project_1.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macuser/Documents/cs236/project-1/main.cpp > CMakeFiles/project_1.dir/main.cpp.i
+
+CMakeFiles/project_1.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macuser/Documents/cs236/project-1/main.cpp -o CMakeFiles/project_1.dir/main.cpp.s
+
 CMakeFiles/project_1.dir/ColonAutomaton.cpp.o: CMakeFiles/project_1.dir/flags.make
 CMakeFiles/project_1.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_1.dir/ColonAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_1.dir/ColonAutomaton.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/ColonAutomaton.cpp.o -c /Users/macuser/Documents/cs236/project-1/ColonAutomaton.cpp
 
 CMakeFiles/project_1.dir/ColonAutomaton.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/project_1.dir/ColonAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.o: CMakeFiles/project_1.dir/flags.make
 CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.o -c /Users/macuser/Documents/cs236/project-1/ColonDashAutomaton.cpp
 
 CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project_1.dir/Lexer.cpp.o: CMakeFiles/project_1.dir/flags.make
 CMakeFiles/project_1.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_1.dir/Lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_1.dir/Lexer.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Lexer.cpp.o -c /Users/macuser/Documents/cs236/project-1/Lexer.cpp
 
 CMakeFiles/project_1.dir/Lexer.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/project_1.dir/Lexer.cpp.s: cmake_force
 
 CMakeFiles/project_1.dir/Token.cpp.o: CMakeFiles/project_1.dir/flags.make
 CMakeFiles/project_1.dir/Token.cpp.o: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_1.dir/Token.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_1.dir/Token.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Token.cpp.o -c /Users/macuser/Documents/cs236/project-1/Token.cpp
 
 CMakeFiles/project_1.dir/Token.cpp.i: cmake_force
@@ -108,19 +121,6 @@ CMakeFiles/project_1.dir/Token.cpp.i: cmake_force
 CMakeFiles/project_1.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Token.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macuser/Documents/cs236/project-1/Token.cpp -o CMakeFiles/project_1.dir/Token.cpp.s
-
-CMakeFiles/project_1.dir/main.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_1.dir/main.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/main.cpp.o -c /Users/macuser/Documents/cs236/project-1/main.cpp
-
-CMakeFiles/project_1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macuser/Documents/cs236/project-1/main.cpp > CMakeFiles/project_1.dir/main.cpp.i
-
-CMakeFiles/project_1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macuser/Documents/cs236/project-1/main.cpp -o CMakeFiles/project_1.dir/main.cpp.s
 
 CMakeFiles/project_1.dir/PeriodAutomaton.cpp.o: CMakeFiles/project_1.dir/flags.make
 CMakeFiles/project_1.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.cpp
@@ -332,11 +332,11 @@ CMakeFiles/project_1.dir/BadStringAutomaton.cpp.s: cmake_force
 
 # Object files for target project_1
 project_1_OBJECTS = \
+"CMakeFiles/project_1.dir/main.cpp.o" \
 "CMakeFiles/project_1.dir/ColonAutomaton.cpp.o" \
 "CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.o" \
 "CMakeFiles/project_1.dir/Lexer.cpp.o" \
 "CMakeFiles/project_1.dir/Token.cpp.o" \
-"CMakeFiles/project_1.dir/main.cpp.o" \
 "CMakeFiles/project_1.dir/PeriodAutomaton.cpp.o" \
 "CMakeFiles/project_1.dir/QmarkAutomaton.cpp.o" \
 "CMakeFiles/project_1.dir/LeftParenAutomaton.cpp.o" \
@@ -357,11 +357,11 @@ project_1_OBJECTS = \
 # External object files for target project_1
 project_1_EXTERNAL_OBJECTS =
 
+project_1: CMakeFiles/project_1.dir/main.cpp.o
 project_1: CMakeFiles/project_1.dir/ColonAutomaton.cpp.o
 project_1: CMakeFiles/project_1.dir/ColonDashAutomaton.cpp.o
 project_1: CMakeFiles/project_1.dir/Lexer.cpp.o
 project_1: CMakeFiles/project_1.dir/Token.cpp.o
-project_1: CMakeFiles/project_1.dir/main.cpp.o
 project_1: CMakeFiles/project_1.dir/PeriodAutomaton.cpp.o
 project_1: CMakeFiles/project_1.dir/QmarkAutomaton.cpp.o
 project_1: CMakeFiles/project_1.dir/LeftParenAutomaton.cpp.o

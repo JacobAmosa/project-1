@@ -8,6 +8,7 @@ void CommentAutomaton::S0(const std::string& input) {
         if(input[index] == '|'){
             commentType = "block";
             index++;
+            inputRead++;
         }
         S1(input);
     }
@@ -17,8 +18,6 @@ void CommentAutomaton::S0(const std::string& input) {
 }
 
 void CommentAutomaton::S1(const std::string& input) {
-    bool blockEnd = false;              //blockEnd makes sure the block comment has a closing "|#".
-    newLines = 0;
     if (commentType == "line") {
         for (int i = 1; i < input.size(); ++i) {
             if (input[i + 1] == '\n') {
@@ -30,26 +29,42 @@ void CommentAutomaton::S1(const std::string& input) {
         inputRead++;
     }
     if (commentType == "block") {
-        for (int i = 2; i < input.size(); ++i) {
-            //Checking for new lines.
-            if (input[i] == '\n') {
-                newLines++;
-            }
-            //Checking for end of block comment
-            if (input[i] == '|') {
-                inputRead++;
-                if (i + 1 < input.size()) {
-                    if (input[i + 1] == '#') {
-                        inputRead ++;
-                        blockEnd = true;
-                        break;
-                    }
-                }
-            }
-            inputRead++;
-        }
-        if (!blockEnd) {
-            Serr();
-        }
+       if (input[index] == '|'){
+           inputRead++;
+           index++;
+           S2(input);
+       }
+       else if (input[index] == EOF){
+           Serr();
+       }
+       else if(input[index] == '\n'){
+           index++;
+           newLines++;
+           inputRead++;
+           S1(input);
+       }
+       else{
+           inputRead++;
+           index++;
+           S1(input);
+       }
     }
 }
+
+void CommentAutomaton::S2(const std::string& input) {
+    if (input[index + 1] == EOF){
+        Serr();
+    }
+    else if(input[index] == '#'){
+        inputRead++;
+    }
+    else{
+        inputRead++;
+        index++;
+        S1(input);
+    }
+}
+
+
+
+

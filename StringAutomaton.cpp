@@ -12,21 +12,36 @@ void StringAutomaton::S0(const std::string& input) {
 }
 
 void StringAutomaton::S1(const std::string& input) {
-    bool closing = false;
-    for (int i = 0; i < input.size() - 1; ++i){
         //Checking for new lines.
         if (input[index] == '\n'){
             newLines++;
+            inputRead++;
+            index++;
         }
+        //making sure there's a closing string.
         if (input[index] == '\'') {
             inputRead++;
-            closing = true;
-            break;
+            index++;
+            S2(input);
+            }
+        //Sends error if reach the end of file.
+        else if(input[index - 1] == EOF){
+            Serr();
         }
+        else{
         inputRead++;
         index++;
+        S1(input);
     }
-    if (closing == false){
-        Serr();
+}
+
+void StringAutomaton::S2(const std::string& input){
+    if (input[index] == '\''){
+        inputRead++;
+        index++;
+        S1(input);
     }
+    else{
+    }
+
 }

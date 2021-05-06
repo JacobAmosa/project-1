@@ -52,8 +52,7 @@ void Lexer::CreateAutomata() {
 
 void Lexer::Run(std::string& input) {
     //checks for F.S.A that returns highest number
-    int maxRead, maxNewLine;
-    bool newLine;
+    int maxRead;
     Automaton* maxAutomaton;
     lineNumber = 1;
     //Iterating through each character of the input.
@@ -91,7 +90,7 @@ void Lexer::Run(std::string& input) {
         }
         input.erase(0, maxRead);
     }
-    tokens.push_back(new Token(TokenType::EOF_TYPE, "", lineNumber + 1));
+    tokens.push_back(new Token(TokenType::EOF_TYPE, "", lineNumber));
     toString();
 }
 
