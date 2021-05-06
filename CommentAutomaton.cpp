@@ -34,7 +34,7 @@ void CommentAutomaton::S1(const std::string& input) {
            index++;
            S2(input);
        }
-       else if (input.size() == index){
+       else if ((int)input.size() == index){
            Serr();
        }
        else if(input[index] == '\n'){
