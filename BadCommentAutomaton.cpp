@@ -14,7 +14,7 @@ void BadCommentAutomaton::S0(const std::string& input) {
 
 void BadCommentAutomaton::S1(const std::string& input) {
     bool blockEnd = false;              //blockEnd makes sure the block comment doesn't end.
-        for (int i = 2; i < input.size(); ++i) {
+        for (unsigned int i = 2; i < input.size(); ++i) {
             //Checking for new lines.
             if (input[i] == '\n') {
                 newLines++;
@@ -22,7 +22,7 @@ void BadCommentAutomaton::S1(const std::string& input) {
             //Checking for end of block comment
             if (input[i] == '|') {
                 inputRead++;
-                if (i + 1 < input.size()) {
+                if (i + 1 < (int)input.size()) {
                     if (input[i + 1] == '#') {
                         blockEnd = true;
                         break;

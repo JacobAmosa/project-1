@@ -19,7 +19,7 @@ void CommentAutomaton::S0(const std::string& input) {
 
 void CommentAutomaton::S1(const std::string& input) {
     if (commentType == "line") {
-        for (int i = 1; i < input.size(); ++i) {
+        for (unsigned int i = 1; i < input.size(); ++i) {
             if (input[i + 1] == '\n') {
                 break;
             } else {
@@ -34,7 +34,7 @@ void CommentAutomaton::S1(const std::string& input) {
            index++;
            S2(input);
        }
-       else if (input[index] > input.size() - 1){
+       else if (input[index] > (int)input.size() - 1){
            Serr();
        }
        else if(input[index] == '\n'){

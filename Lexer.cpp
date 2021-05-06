@@ -97,7 +97,7 @@ void Lexer::Run(std::string& input) {
 //Function that prints out all of the tokens.
 void Lexer::toString() {
     int total = 0;
-    for (int i = 0; i < tokens.size(); ++i) {
+    for (unsigned int i = 0; i < tokens.size(); ++i) {
         cout << tokens[i]->toString() << endl;
         total++;
     }
