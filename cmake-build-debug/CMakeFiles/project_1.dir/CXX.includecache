@@ -10,13 +10,13 @@
 Token.h
 /Users/macuser/Documents/cs236/project-1/Token.h
 
-/Users/macuser/Documents/cs236/project-1/BadCommentAutomaton.cpp
-BadCommentAutomaton.h
-/Users/macuser/Documents/cs236/project-1/BadCommentAutomaton.h
-
-/Users/macuser/Documents/cs236/project-1/BadCommentAutomaton.h
+/Users/macuser/Documents/cs236/project-1/Lexer.h
+vector
+-
 Automaton.h
 /Users/macuser/Documents/cs236/project-1/Automaton.h
+Token.h
+/Users/macuser/Documents/cs236/project-1/Token.h
 
 /Users/macuser/Documents/cs236/project-1/Token.h
 string
@@ -24,5 +24,13 @@ string
 cctype
 -
 iostream
+-
+
+/Users/macuser/Documents/cs236/project-1/main.cpp
+Lexer.h
+/Users/macuser/Documents/cs236/project-1/Lexer.h
+iostream
+-
+fstream
 -
 

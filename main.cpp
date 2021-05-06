@@ -13,13 +13,7 @@ int main(int argc, char** argv) {
     string fileContent((std::istreambuf_iterator<char>(file)),
                        std::istreambuf_iterator<char>());
 
-    //Making sure the string exists and passing it to Run.
-    if (fileContent.size() > 0) {
-        lexer->Run(fileContent);
-    }
-    else {
-        cout << "File doesn't exist.";
-    }
+    lexer->Run(fileContent);
     delete lexer;
 
     return 0;
