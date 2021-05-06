@@ -1,6 +1,10 @@
 #include "StringAutomaton.h"
+#include <assert.h>
+#include <iostream>
+#include <stdio.h>
 
 void StringAutomaton::S0(const std::string& input) {
+    file = input.size();
     if (input[index] == '\'') {
         inputRead++;
         index++;
@@ -25,7 +29,7 @@ void StringAutomaton::S1(const std::string& input) {
             S2(input);
             }
         //Sends error if reach the end of file.
-        else if(input[index - 1] == EOF){
+        else if(input.size() == index){
             Serr();
         }
         else{

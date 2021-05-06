@@ -1,11 +1,13 @@
 #ifndef PROJECT_1_STRINGAUTOMATON_H
 #define PROJECT_1_STRINGAUTOMATON_H
+#include <fstream>
 
 #include "Automaton.h"
 
 class StringAutomaton : public Automaton
 {
 private:
+    int file;
     void S0(const std::string& input);
 
 public:

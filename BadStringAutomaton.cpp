@@ -25,8 +25,8 @@ void BadStringAutomaton::S1(const std::string& input) {
         S2(input);
     }
     //Sends error if reach the end of file.
-    else if(input[index - 1] == EOF){
-
+    else if(input.size() == index){
+        return;
     }
     else{
         inputRead++;
