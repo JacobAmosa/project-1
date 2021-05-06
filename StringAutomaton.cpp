@@ -29,7 +29,7 @@ void StringAutomaton::S1(const std::string& input) {
             S2(input);
             }
         //Sends error if reach the end of file.
-        else if(input.size() == index){
+        else if((int)input.size() == index){
             Serr();
         }
         else{
