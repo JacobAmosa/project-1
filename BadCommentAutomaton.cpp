@@ -13,25 +13,48 @@ void BadCommentAutomaton::S0(const std::string& input) {
 }
 
 void BadCommentAutomaton::S1(const std::string& input) {
-    bool blockEnd = false;              //blockEnd makes sure the block comment doesn't end.
-        for (unsigned int i = 2; i < input.size(); ++i) {
-            //Checking for new lines.
-            if (input[i] == '\n') {
-                newLines++;
-            }
-            //Checking for end of block comment
-            if (input[i] == '|') {
-                inputRead++;
-                if (i + 1 < input.size()) {
-                    if (input[i + 1] == '#') {
-                        blockEnd = true;
-                        break;
-                    }
-                }
-            }
-            inputRead++;
-        }
-        if (blockEnd) {
-            Serr();
-        }
+    //Checking for new lines.
+    if (input[index] == '\n') {
+        newLines++;
+        inputRead++;
+        index++;
+        S1(input);
+    }
+    //check for end of file.
+    else if ((int)input.size() == index){
+
+    }
+    //Checking for end of block comment
+    else if (input[index] == '|') {
+        inputRead++;
+        index++;
+        S2(input);
+    }
+    else{
+        inputRead++;
+        index++;
+        S1(input);
+    }
+}
+
+void BadCommentAutomaton::S2(const std::string& input) {
+    if(input[index] == '#'){
+        Serr();
+    }
+    else if (input[index] == '\n') {
+        newLines++;
+        inputRead++;
+        index++;
+        S1(input);
+    }
+    //check for end of file.
+    else if ((int)input.size() == index){
+        return;
+    }
+    else {
+        inputRead++;
+        index++;
+        S1(input);
+    }
+
 }
