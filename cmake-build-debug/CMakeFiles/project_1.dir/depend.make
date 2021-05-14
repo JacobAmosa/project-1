@@ -79,6 +79,10 @@ CMakeFiles/project_1.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.cpp
 CMakeFiles/project_1.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.h
 CMakeFiles/project_1.dir/MultiplyAutomaton.cpp.o: ../Token.h
 
+CMakeFiles/project_1.dir/Parser.cpp.o: ../Parser.cpp
+CMakeFiles/project_1.dir/Parser.cpp.o: ../Parser.h
+CMakeFiles/project_1.dir/Parser.cpp.o: ../Token.h
+
 CMakeFiles/project_1.dir/PeriodAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/project_1.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.cpp
 CMakeFiles/project_1.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.h
@@ -119,6 +123,7 @@ CMakeFiles/project_1.dir/Token.cpp.o: ../Token.h
 
 CMakeFiles/project_1.dir/main.cpp.o: ../Automaton.h
 CMakeFiles/project_1.dir/main.cpp.o: ../Lexer.h
+CMakeFiles/project_1.dir/main.cpp.o: ../Parser.h
 CMakeFiles/project_1.dir/main.cpp.o: ../Token.h
 CMakeFiles/project_1.dir/main.cpp.o: ../main.cpp
 

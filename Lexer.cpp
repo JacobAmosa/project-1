@@ -1,4 +1,5 @@
 #include "Lexer.h"
+#include <vector>
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
 #include "AddAutomaton.h"
@@ -79,19 +80,22 @@ void Lexer::Run(std::string& input) {
             }
         }
         //After finding the right F.S.A,creates a new token and adds it to the token vector.
-        if (maxRead > 0){
-            Token* newToken = maxAutomaton->CreateToken(input.substr(0,maxRead), lineNumber);
-            lineNumber += maxAutomaton->NewLinesRead();
-            tokens.push_back(newToken);
-        }
-        else {
-            maxRead = 1;
-            tokens.push_back(new Token(TokenType::UNDEFINED, input.substr(0,maxRead), lineNumber));
+        //REMOVING all the comment tokens for the parser.
+        if (maxAutomaton != automata[16] && maxAutomaton != automata[17]){
+            if (maxRead > 0){
+                Token* newToken = maxAutomaton->CreateToken(input.substr(0,maxRead), lineNumber);
+                lineNumber += maxAutomaton->NewLinesRead();
+                tokens.push_back(newToken);
+            }
+            else {
+                maxRead = 1;
+                tokens.push_back(new Token(TokenType::UNDEFINED, input.substr(0,maxRead), lineNumber));
+            }
         }
         input.erase(0, maxRead);
     }
     tokens.push_back(new Token(TokenType::EOF_TYPE, "", lineNumber));
-    toString();
+    //toString();
 }
 
 //Function that prints out all of the tokens.
@@ -102,4 +106,9 @@ void Lexer::toString() {
         total++;
     }
     cout << "Total Tokens = " << total;
+}
+
+//Sends a pointer vector of tokens to the parser class.
+vector<Token*> Lexer::getTokens(){
+    return tokens;
 }

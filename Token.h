@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-enum class TokenType {
+enum TokenType {
     COLON,
     COLON_DASH,
     STRING,

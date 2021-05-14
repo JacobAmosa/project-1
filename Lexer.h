@@ -12,8 +12,6 @@ private:
 
     void CreateAutomata();
 
-    // TODO: add any other private methods here (if needed)
-
 public:
     Lexer();
     ~Lexer();
@@ -21,8 +19,7 @@ public:
 
     void Run(std::string& input);
     void toString();
-    
-    // TODO: add other public methods here
+    vector<Token*> getTokens();
 
 };
 

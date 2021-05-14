@@ -1,4 +1,5 @@
 #include "Lexer.h"
+#include "Parser.h"
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -13,7 +14,11 @@ int main(int argc, char** argv) {
     string fileContent((std::istreambuf_iterator<char>(file)),
                        std::istreambuf_iterator<char>());
 
+    //Calling lexer class to create tokens from file
     lexer->Run(fileContent);
+    //creating a new parser object to retrieve tokens from lexer.
+    Parser* parser = new Parser(lexer->getTokens());
+
     delete lexer;
 
     return 0;
