@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
     //Calling lexer class to create tokens from file
     lexer->Run(fileContent);
     //creating a new parser object to retrieve tokens from lexer.
-    Parser* parser = new Parser(lexer->getTokens());
+    new Parser(lexer->getTokens());
 
 
     delete lexer;

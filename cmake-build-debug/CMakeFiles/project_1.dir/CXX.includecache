@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/macuser/Documents/cs236/project-1/DatalogProgram.cpp
-DatalogProgram.h
-/Users/macuser/Documents/cs236/project-1/DatalogProgram.h
+/Users/macuser/Documents/cs236/project-1/Automaton.h
+Token.h
+/Users/macuser/Documents/cs236/project-1/Token.h
 
 /Users/macuser/Documents/cs236/project-1/DatalogProgram.h
 iostream
@@ -24,11 +24,29 @@ Predicate.h
 Rule.h
 /Users/macuser/Documents/cs236/project-1/Rule.h
 
+/Users/macuser/Documents/cs236/project-1/Lexer.h
+vector
+-
+Automaton.h
+/Users/macuser/Documents/cs236/project-1/Automaton.h
+Token.h
+/Users/macuser/Documents/cs236/project-1/Token.h
+
 /Users/macuser/Documents/cs236/project-1/Parameter.h
 string
 -
 Token.h
 /Users/macuser/Documents/cs236/project-1/Token.h
+
+/Users/macuser/Documents/cs236/project-1/Parser.h
+Token.h
+/Users/macuser/Documents/cs236/project-1/Token.h
+DatalogProgram.h
+/Users/macuser/Documents/cs236/project-1/DatalogProgram.h
+Rule.h
+/Users/macuser/Documents/cs236/project-1/Rule.h
+set
+-
 
 /Users/macuser/Documents/cs236/project-1/Predicate.h
 string
@@ -52,5 +70,15 @@ string
 cctype
 -
 iostream
+-
+
+/Users/macuser/Documents/cs236/project-1/main.cpp
+Lexer.h
+/Users/macuser/Documents/cs236/project-1/Lexer.h
+Parser.h
+/Users/macuser/Documents/cs236/project-1/Parser.h
+iostream
+-
+fstream
 -
 
