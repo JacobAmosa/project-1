@@ -36,6 +36,13 @@ CMakeFiles/project_1.dir/CommentAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/CommentAutomaton.cpp
  /Users/macuser/Documents/cs236/project-1/CommentAutomaton.h
  /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/DatalogProgram.cpp.o
+ /Users/macuser/Documents/cs236/project-1/DatalogProgram.cpp
+ /Users/macuser/Documents/cs236/project-1/DatalogProgram.h
+ /Users/macuser/Documents/cs236/project-1/Parameter.h
+ /Users/macuser/Documents/cs236/project-1/Predicate.h
+ /Users/macuser/Documents/cs236/project-1/Rule.h
+ /Users/macuser/Documents/cs236/project-1/Token.h
 CMakeFiles/project_1.dir/FactsAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
  /Users/macuser/Documents/cs236/project-1/FactsAutomaton.cpp
@@ -79,14 +86,27 @@ CMakeFiles/project_1.dir/MultiplyAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/MultiplyAutomaton.cpp
  /Users/macuser/Documents/cs236/project-1/MultiplyAutomaton.h
  /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/Parameter.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Parameter.cpp
+ /Users/macuser/Documents/cs236/project-1/Parameter.h
+ /Users/macuser/Documents/cs236/project-1/Token.h
 CMakeFiles/project_1.dir/Parser.cpp.o
+ /Users/macuser/Documents/cs236/project-1/DatalogProgram.h
+ /Users/macuser/Documents/cs236/project-1/Parameter.h
  /Users/macuser/Documents/cs236/project-1/Parser.cpp
  /Users/macuser/Documents/cs236/project-1/Parser.h
+ /Users/macuser/Documents/cs236/project-1/Predicate.h
+ /Users/macuser/Documents/cs236/project-1/Rule.h
  /Users/macuser/Documents/cs236/project-1/Token.h
 CMakeFiles/project_1.dir/PeriodAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
  /Users/macuser/Documents/cs236/project-1/PeriodAutomaton.cpp
  /Users/macuser/Documents/cs236/project-1/PeriodAutomaton.h
+ /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/Predicate.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Parameter.h
+ /Users/macuser/Documents/cs236/project-1/Predicate.cpp
+ /Users/macuser/Documents/cs236/project-1/Predicate.h
  /Users/macuser/Documents/cs236/project-1/Token.h
 CMakeFiles/project_1.dir/QmarkAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
@@ -102,6 +122,12 @@ CMakeFiles/project_1.dir/RightParenAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
  /Users/macuser/Documents/cs236/project-1/RightParenAutomaton.cpp
  /Users/macuser/Documents/cs236/project-1/RightParenAutomaton.h
+ /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/Rule.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Parameter.h
+ /Users/macuser/Documents/cs236/project-1/Predicate.h
+ /Users/macuser/Documents/cs236/project-1/Rule.cpp
+ /Users/macuser/Documents/cs236/project-1/Rule.h
  /Users/macuser/Documents/cs236/project-1/Token.h
 CMakeFiles/project_1.dir/RulesAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
@@ -123,7 +149,11 @@ CMakeFiles/project_1.dir/Token.cpp.o
  /Users/macuser/Documents/cs236/project-1/Token.h
 CMakeFiles/project_1.dir/main.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
+ /Users/macuser/Documents/cs236/project-1/DatalogProgram.h
  /Users/macuser/Documents/cs236/project-1/Lexer.h
+ /Users/macuser/Documents/cs236/project-1/Parameter.h
  /Users/macuser/Documents/cs236/project-1/Parser.h
+ /Users/macuser/Documents/cs236/project-1/Predicate.h
+ /Users/macuser/Documents/cs236/project-1/Rule.h
  /Users/macuser/Documents/cs236/project-1/Token.h
  /Users/macuser/Documents/cs236/project-1/main.cpp

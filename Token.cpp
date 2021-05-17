@@ -73,3 +73,7 @@ string Token::toString() {
     theToken = "(" + type + ",\"" + tokenValue + "\"," + to_string(lineNumber) + ")";
     return theToken;
 }
+
+const string Token::getTokenValue() const {
+    return tokenValue;
+}

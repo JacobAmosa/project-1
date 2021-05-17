@@ -1,11 +1,17 @@
 #ifndef PROJECT_1_PARSER_H
 #define PROJECT_1_PARSER_H
 #include "Token.h"
+#include "DatalogProgram.h"
+#include "Rule.h"
+#include <set>
 
 class Parser {
 
 private:
     vector<Token*> myTokens;
+    DatalogProgram datalogProgram;
+    set<string> myDomain;
+    Rule rule;
 
 public:
     Parser(vector<Token*> tokens);
@@ -21,13 +27,13 @@ public:
     void parseRule(Token* myToken);
     void parseQuery(Token* myToken);
     void parseQueryList(Token* myToken);
-    void parseHeadPredicate(Token* myToken);
-    void parsePredicate(Token* myToken);
-    void parsePredicateList(Token* myToken);
+    void parseHeadPredicate(Token* myToken, Predicate &headPredicate);
+    void parsePredicate(Token* myToken, vector<Predicate> &predicate, vector<Parameter> &parameter);
+    void parsePredicateList(Token* myToken,vector<Predicate> &predicates ,vector<Parameter> &parameter);
     void parseParameter(Token* myToken);
-    void parseParameterList(Token* myToken);
-    void parseStringList(Token* myToken);
-    void parseIdList(Token* myToken);
+    void parseParameterList(Token* myToken, vector<Parameter> &parameter);
+    void parseStringList(Token* myToken, vector<Parameter> &parameters, set<string> &myDomain);
+    void parseIdList(Token* myToken, vector<Parameter> &parameter);
 
 };
 

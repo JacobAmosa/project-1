@@ -6,17 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/Users/macuser/Documents/cs236/project-1/Parser.cpp
+/Users/macuser/Documents/cs236/project-1/DatalogProgram.cpp
+DatalogProgram.h
+/Users/macuser/Documents/cs236/project-1/DatalogProgram.h
+
+/Users/macuser/Documents/cs236/project-1/DatalogProgram.h
+iostream
+-
 vector
 -
-Parser.h
-/Users/macuser/Documents/cs236/project-1/Parser.h
+string
+-
+set
+-
+Predicate.h
+/Users/macuser/Documents/cs236/project-1/Predicate.h
+Rule.h
+/Users/macuser/Documents/cs236/project-1/Rule.h
+
+/Users/macuser/Documents/cs236/project-1/Parameter.h
+string
+-
 Token.h
 /Users/macuser/Documents/cs236/project-1/Token.h
 
-/Users/macuser/Documents/cs236/project-1/Parser.h
-Token.h
-/Users/macuser/Documents/cs236/project-1/Token.h
+/Users/macuser/Documents/cs236/project-1/Predicate.h
+string
+-
+vector
+-
+Parameter.h
+/Users/macuser/Documents/cs236/project-1/Parameter.h
+
+/Users/macuser/Documents/cs236/project-1/Rule.h
+Predicate.h
+/Users/macuser/Documents/cs236/project-1/Predicate.h
+Parameter.h
+/Users/macuser/Documents/cs236/project-1/Parameter.h
+string
+-
 
 /Users/macuser/Documents/cs236/project-1/Token.h
 string

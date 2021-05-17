@@ -19,6 +19,7 @@ int main(int argc, char** argv) {
     //creating a new parser object to retrieve tokens from lexer.
     Parser* parser = new Parser(lexer->getTokens());
 
+
     delete lexer;
 
     return 0;

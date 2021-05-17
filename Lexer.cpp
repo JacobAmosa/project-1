@@ -48,7 +48,6 @@ void Lexer::CreateAutomata() {
     automata.push_back(new CommentAutomaton());
     automata.push_back(new BadCommentAutomaton());
     automata.push_back(new BadStringAutomaton());
-
 }
 
 void Lexer::Run(std::string& input) {
