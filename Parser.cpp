@@ -226,6 +226,8 @@ void Parser::parsePredicateList(Token *myToken, vector<Predicate> &predicates, v
 
 void Parser::parsePredicate(Token *myToken, vector<Predicate> &predicate, vector<Parameter> &parameter) {
     Predicate bodyPredicate;
+
+    parameter.clear();                                                   //Needs to clear the vector after each predicate.
     bodyPredicate.setIdName(myTokens[index]->getTokenValue());
     parseTerminal(myTokens[index], TokenType::ID);
     parseTerminal(myTokens[index], TokenType::LEFT_PAREN);
