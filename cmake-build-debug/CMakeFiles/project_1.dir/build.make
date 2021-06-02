@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/kb/7gmp5fq525l853pzq3mfnf1r0000gn/T/AppTranslocation/CD9E9536-B2F6-4432-A34D-9C8CA4C0C8B4/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/kb/7gmp5fq525l853pzq3mfnf1r0000gn/T/AppTranslocation/EB01E784-EE79-4464-8144-41EF24E87F19/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/kb/7gmp5fq525l853pzq3mfnf1r0000gn/T/AppTranslocation/CD9E9536-B2F6-4432-A34D-9C8CA4C0C8B4/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/kb/7gmp5fq525l853pzq3mfnf1r0000gn/T/AppTranslocation/EB01E784-EE79-4464-8144-41EF24E87F19/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -395,6 +395,71 @@ CMakeFiles/project_1.dir/Parameter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Parameter.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macuser/Documents/cs236/project-1/Parameter.cpp -o CMakeFiles/project_1.dir/Parameter.cpp.s
 
+CMakeFiles/project_1.dir/Interpreter.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/Interpreter.cpp.o: ../Interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/project_1.dir/Interpreter.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Interpreter.cpp.o -c /Users/macuser/Documents/cs236/project-1/Interpreter.cpp
+
+CMakeFiles/project_1.dir/Interpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Interpreter.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macuser/Documents/cs236/project-1/Interpreter.cpp > CMakeFiles/project_1.dir/Interpreter.cpp.i
+
+CMakeFiles/project_1.dir/Interpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Interpreter.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macuser/Documents/cs236/project-1/Interpreter.cpp -o CMakeFiles/project_1.dir/Interpreter.cpp.s
+
+CMakeFiles/project_1.dir/Relation.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/Relation.cpp.o: ../Relation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/project_1.dir/Relation.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Relation.cpp.o -c /Users/macuser/Documents/cs236/project-1/Relation.cpp
+
+CMakeFiles/project_1.dir/Relation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Relation.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macuser/Documents/cs236/project-1/Relation.cpp > CMakeFiles/project_1.dir/Relation.cpp.i
+
+CMakeFiles/project_1.dir/Relation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Relation.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macuser/Documents/cs236/project-1/Relation.cpp -o CMakeFiles/project_1.dir/Relation.cpp.s
+
+CMakeFiles/project_1.dir/Tuple.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/Tuple.cpp.o: ../Tuple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/project_1.dir/Tuple.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Tuple.cpp.o -c /Users/macuser/Documents/cs236/project-1/Tuple.cpp
+
+CMakeFiles/project_1.dir/Tuple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Tuple.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macuser/Documents/cs236/project-1/Tuple.cpp > CMakeFiles/project_1.dir/Tuple.cpp.i
+
+CMakeFiles/project_1.dir/Tuple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Tuple.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macuser/Documents/cs236/project-1/Tuple.cpp -o CMakeFiles/project_1.dir/Tuple.cpp.s
+
+CMakeFiles/project_1.dir/Header.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/Header.cpp.o: ../Header.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/project_1.dir/Header.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Header.cpp.o -c /Users/macuser/Documents/cs236/project-1/Header.cpp
+
+CMakeFiles/project_1.dir/Header.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Header.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macuser/Documents/cs236/project-1/Header.cpp > CMakeFiles/project_1.dir/Header.cpp.i
+
+CMakeFiles/project_1.dir/Header.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Header.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macuser/Documents/cs236/project-1/Header.cpp -o CMakeFiles/project_1.dir/Header.cpp.s
+
+CMakeFiles/project_1.dir/Database.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/Database.cpp.o: ../Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/project_1.dir/Database.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Database.cpp.o -c /Users/macuser/Documents/cs236/project-1/Database.cpp
+
+CMakeFiles/project_1.dir/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Database.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macuser/Documents/cs236/project-1/Database.cpp > CMakeFiles/project_1.dir/Database.cpp.i
+
+CMakeFiles/project_1.dir/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Database.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macuser/Documents/cs236/project-1/Database.cpp -o CMakeFiles/project_1.dir/Database.cpp.s
+
 # Object files for target project_1
 project_1_OBJECTS = \
 "CMakeFiles/project_1.dir/main.cpp.o" \
@@ -422,7 +487,12 @@ project_1_OBJECTS = \
 "CMakeFiles/project_1.dir/DatalogProgram.cpp.o" \
 "CMakeFiles/project_1.dir/Predicate.cpp.o" \
 "CMakeFiles/project_1.dir/Rule.cpp.o" \
-"CMakeFiles/project_1.dir/Parameter.cpp.o"
+"CMakeFiles/project_1.dir/Parameter.cpp.o" \
+"CMakeFiles/project_1.dir/Interpreter.cpp.o" \
+"CMakeFiles/project_1.dir/Relation.cpp.o" \
+"CMakeFiles/project_1.dir/Tuple.cpp.o" \
+"CMakeFiles/project_1.dir/Header.cpp.o" \
+"CMakeFiles/project_1.dir/Database.cpp.o"
 
 # External object files for target project_1
 project_1_EXTERNAL_OBJECTS =
@@ -453,9 +523,14 @@ project_1: CMakeFiles/project_1.dir/DatalogProgram.cpp.o
 project_1: CMakeFiles/project_1.dir/Predicate.cpp.o
 project_1: CMakeFiles/project_1.dir/Rule.cpp.o
 project_1: CMakeFiles/project_1.dir/Parameter.cpp.o
+project_1: CMakeFiles/project_1.dir/Interpreter.cpp.o
+project_1: CMakeFiles/project_1.dir/Relation.cpp.o
+project_1: CMakeFiles/project_1.dir/Tuple.cpp.o
+project_1: CMakeFiles/project_1.dir/Header.cpp.o
+project_1: CMakeFiles/project_1.dir/Database.cpp.o
 project_1: CMakeFiles/project_1.dir/build.make
 project_1: CMakeFiles/project_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable project_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/macuser/Documents/cs236/project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable project_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

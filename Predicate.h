@@ -15,7 +15,7 @@ public:
     void setIdName(const string idName);
     void setParameters(const vector<Parameter> parameters);
     const string getIdName() const;
-    const vector<Parameter> getParameters() const;
+    vector<Parameter> getParameters();
 
 };
 

@@ -36,6 +36,12 @@ CMakeFiles/project_1.dir/CommentAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/CommentAutomaton.cpp
  /Users/macuser/Documents/cs236/project-1/CommentAutomaton.h
  /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/Database.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Database.cpp
+ /Users/macuser/Documents/cs236/project-1/Database.h
+ /Users/macuser/Documents/cs236/project-1/Header.h
+ /Users/macuser/Documents/cs236/project-1/Relation.h
+ /Users/macuser/Documents/cs236/project-1/Tuple.h
 CMakeFiles/project_1.dir/DatalogProgram.cpp.o
  /Users/macuser/Documents/cs236/project-1/DatalogProgram.cpp
  /Users/macuser/Documents/cs236/project-1/DatalogProgram.h
@@ -48,11 +54,26 @@ CMakeFiles/project_1.dir/FactsAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/FactsAutomaton.cpp
  /Users/macuser/Documents/cs236/project-1/FactsAutomaton.h
  /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/Header.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Header.cpp
+ /Users/macuser/Documents/cs236/project-1/Header.h
 CMakeFiles/project_1.dir/IdAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
  /Users/macuser/Documents/cs236/project-1/IdAutomaton.cpp
  /Users/macuser/Documents/cs236/project-1/IdAutomaton.h
  /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/Interpreter.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Database.h
+ /Users/macuser/Documents/cs236/project-1/DatalogProgram.h
+ /Users/macuser/Documents/cs236/project-1/Header.h
+ /Users/macuser/Documents/cs236/project-1/Interpreter.cpp
+ /Users/macuser/Documents/cs236/project-1/Interpreter.h
+ /Users/macuser/Documents/cs236/project-1/Parameter.h
+ /Users/macuser/Documents/cs236/project-1/Predicate.h
+ /Users/macuser/Documents/cs236/project-1/Relation.h
+ /Users/macuser/Documents/cs236/project-1/Rule.h
+ /Users/macuser/Documents/cs236/project-1/Token.h
+ /Users/macuser/Documents/cs236/project-1/Tuple.h
 CMakeFiles/project_1.dir/LeftParenAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
  /Users/macuser/Documents/cs236/project-1/LeftParenAutomaton.cpp
@@ -118,6 +139,11 @@ CMakeFiles/project_1.dir/QueriesAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/QueriesAutomaton.cpp
  /Users/macuser/Documents/cs236/project-1/QueriesAutomaton.h
  /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/Relation.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Header.h
+ /Users/macuser/Documents/cs236/project-1/Relation.cpp
+ /Users/macuser/Documents/cs236/project-1/Relation.h
+ /Users/macuser/Documents/cs236/project-1/Tuple.h
 CMakeFiles/project_1.dir/RightParenAutomaton.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
  /Users/macuser/Documents/cs236/project-1/RightParenAutomaton.cpp
@@ -147,13 +173,21 @@ CMakeFiles/project_1.dir/StringAutomaton.cpp.o
 CMakeFiles/project_1.dir/Token.cpp.o
  /Users/macuser/Documents/cs236/project-1/Token.cpp
  /Users/macuser/Documents/cs236/project-1/Token.h
+CMakeFiles/project_1.dir/Tuple.cpp.o
+ /Users/macuser/Documents/cs236/project-1/Tuple.cpp
+ /Users/macuser/Documents/cs236/project-1/Tuple.h
 CMakeFiles/project_1.dir/main.cpp.o
  /Users/macuser/Documents/cs236/project-1/Automaton.h
+ /Users/macuser/Documents/cs236/project-1/Database.h
  /Users/macuser/Documents/cs236/project-1/DatalogProgram.h
+ /Users/macuser/Documents/cs236/project-1/Header.h
+ /Users/macuser/Documents/cs236/project-1/Interpreter.h
  /Users/macuser/Documents/cs236/project-1/Lexer.h
  /Users/macuser/Documents/cs236/project-1/Parameter.h
  /Users/macuser/Documents/cs236/project-1/Parser.h
  /Users/macuser/Documents/cs236/project-1/Predicate.h
+ /Users/macuser/Documents/cs236/project-1/Relation.h
  /Users/macuser/Documents/cs236/project-1/Rule.h
  /Users/macuser/Documents/cs236/project-1/Token.h
+ /Users/macuser/Documents/cs236/project-1/Tuple.h
  /Users/macuser/Documents/cs236/project-1/main.cpp

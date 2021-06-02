@@ -12,13 +12,9 @@ private:
 
 public:
     Parameter(string parameter, TokenType type);
-
     string getParameter();
-
     void setParameter(string parameter);
-
     TokenType getType();
-
     void setType(TokenType type);
 
 };

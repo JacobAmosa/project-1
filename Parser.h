@@ -34,6 +34,7 @@ public:
     void parseParameterList(Token* myToken, vector<Parameter> &parameter);
     void parseStringList(Token* myToken, vector<Parameter> &parameters, set<string> &myDomain);
     void parseIdList(Token* myToken, vector<Parameter> &parameter);
+    DatalogProgram getDatalogProgram();
 
 };
 

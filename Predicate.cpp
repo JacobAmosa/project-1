@@ -14,7 +14,7 @@ const string Predicate::getIdName() const {
     return idName;
 }
 
-const vector<Parameter> Predicate::getParameters() const {
+vector<Parameter> Predicate::getParameters(){
     return parameters;
 }
 

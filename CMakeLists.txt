@@ -47,4 +47,4 @@ add_executable(project_1
         BadCommentAutomaton.cpp
         BadCommentAutomaton.h
         BadStringAutomaton.cpp
-        BadStringAutomaton.h Parser.cpp Parser.h DatalogProgram.cpp DatalogProgram.h Predicate.cpp Predicate.h Rule.cpp Rule.h Parameter.cpp Parameter.h)
+        BadStringAutomaton.h Parser.cpp Parser.h DatalogProgram.cpp DatalogProgram.h Predicate.cpp Predicate.h Rule.cpp Rule.h Parameter.cpp Parameter.h Interpreter.cpp Interpreter.h Relation.cpp Relation.h Tuple.cpp Tuple.h Header.cpp Header.h Database.cpp Database.h)

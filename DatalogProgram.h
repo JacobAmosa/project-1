@@ -18,6 +18,10 @@ public:
     vector<Rule> rules;
     set<string> domain;
     void setDomain(set<string> domain);
+    vector<Predicate> getSchemes();
+    vector<Predicate> getFacts();
+    vector<Predicate> getQueries();
+    vector<Rule> getRules();
     void toString();
 
 };

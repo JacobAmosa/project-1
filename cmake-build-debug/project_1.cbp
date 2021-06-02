@@ -127,6 +127,12 @@
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/CommentAutomaton.h">
 			<Option target="project_1"/>
 		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Database.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Database.h">
+			<Option target="project_1"/>
+		</Unit>
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/DatalogProgram.cpp">
 			<Option target="project_1"/>
 		</Unit>
@@ -139,10 +145,22 @@
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/FactsAutomaton.h">
 			<Option target="project_1"/>
 		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Header.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Header.h">
+			<Option target="project_1"/>
+		</Unit>
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/IdAutomaton.cpp">
 			<Option target="project_1"/>
 		</Unit>
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/IdAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Interpreter.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Interpreter.h">
 			<Option target="project_1"/>
 		</Unit>
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/LeftParenAutomaton.cpp">
@@ -199,6 +217,12 @@
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/QueriesAutomaton.h">
 			<Option target="project_1"/>
 		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Relation.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Relation.h">
+			<Option target="project_1"/>
+		</Unit>
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/RightParenAutomaton.cpp">
 			<Option target="project_1"/>
 		</Unit>
@@ -233,6 +257,12 @@
 			<Option target="project_1"/>
 		</Unit>
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/Token.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Tuple.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/Users/macuser/Documents/cs236/project-1/Tuple.h">
 			<Option target="project_1"/>
 		</Unit>
 		<Unit filename="/Users/macuser/Documents/cs236/project-1/main.cpp">

@@ -27,8 +27,19 @@ void DatalogProgram::toString() {
         cout << *it << endl;
     }
 }
-
 void DatalogProgram::setDomain(set<string> domain) {
     DatalogProgram::domain = domain;
+}
+vector<Predicate> DatalogProgram::getSchemes(){
+    return schemes;
+}
+vector<Predicate> DatalogProgram::getFacts(){
+    return facts;
+}
+vector<Predicate> DatalogProgram::getQueries(){
+    return queries;
+}
+vector<Rule> DatalogProgram::getRules(){
+    return rules;
 }
 

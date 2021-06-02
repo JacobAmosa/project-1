@@ -10,12 +10,19 @@ Parser::Parser(vector<Token*> tokens) {
     myTokens = tokens;
     try{
         parseDatalogProgram(myTokens);
-        cout << "Success!" << endl;
-        datalogProgram.toString();
+        //***EDITED OUT: Only needed for lab 2***
+//        cout << "Success!" << endl;
+//        datalogProgram.toString();
+
     }
     catch(string error){
         cout << "Failure!" << endl << error;
     }
+}
+
+//FUCNTION TO PASS DATALOG INFO TO INTERPRETER CLASS.
+DatalogProgram Parser::getDatalogProgram(){
+    return datalogProgram;
 }
 
 //Calling each terminal and nonterminal in the datalog grammar.
