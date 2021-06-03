@@ -7,11 +7,6 @@
 #include <string>
 using namespace std;
 
-//Keeps track of the tuples coming from the facts.
-//NO DUPLICATES (use sets).
-//Retrieves vector of strings from tuple and header classes.
-//
-
 class Relation {
 private:
     string relationName;
@@ -19,9 +14,19 @@ private:
     set<Tuple> tupleSet;
 public:
     Relation(string name, Header newHeader);
+    Relation();
     void addTuple(Tuple tuple);
     void toString();
-    //ADD 4 SPECIAL FUNCTIONS SELECT*2, PROJECT, RENAME*****
+    void clearRelation();
+    //takes a constant and selects at a certain index.
+    Relation select1(int index, string value);
+    //takes two indices where the variables are the same and makes sure their values are the same.
+    Relation select2(int index1, int index2);
+    //only keeps certain columns of each tuple.
+    Relation project(vector<int> columns);
+    //renames the header of a relation.
+    void rename(vector<string> newHeader);
+    set<Tuple> getTupleSet();
 };
 
 
