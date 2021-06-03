@@ -70,15 +70,20 @@ set<Tuple> Relation::getTupleSet() {
 }
 
 void Relation::toString() {
+    int counter = 0;
     for(Tuple t: tupleSet){
         for (unsigned int i = 0; i < t.getValues().size(); ++i){
             if (t.getValues().size() > i + 1){
                 cout << header.getAttributes()[i] << "=" << t.getValues()[i] << ",";
+                counter++;
             }
             else {
                 cout << header.getAttributes()[i] << "=" << t.getValues()[i];
+                counter++;
             }
         }
-       cout << endl;
+        if (counter != 0){
+            cout << endl;
+        }
     }
 }

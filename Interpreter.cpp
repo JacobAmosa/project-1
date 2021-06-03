@@ -49,9 +49,7 @@ Interpreter::Interpreter(DatalogProgram allVectors) {
         relation = evaluatePredicate(vectors.getQueries()[i]);
         if (relation.getTupleSet().size() > 0){
             cout << "Yes(" << relation.getTupleSet().size() << ")" << endl;
-            if (relation.getTupleSet().size() > 1){
-                relation.toString();
-            }
+            relation.toString();
         }
         else{
             cout << "No" << endl;
