@@ -15,7 +15,7 @@ Interpreter::Interpreter(DatalogProgram allVectors) {
 
     //Looping through SCHEME vectors to retrieve relation names and headers.
     for (unsigned int i = 0; i < vectors.getSchemes().size(); ++i){
-        int j = 0;
+        unsigned int j = 0;
         //changing all the parameters to type string.
         while (vectors.getSchemes()[i].getParameters().size() > j) {
             tableHeader.push_back((vectors.getSchemes()[i].getParameters()[j]).getParameter());
@@ -31,7 +31,7 @@ Interpreter::Interpreter(DatalogProgram allVectors) {
     vector<string> tuples;
     for (unsigned int i = 0; i < vectors.getFacts().size(); ++i){
         Tuple* tuple = new Tuple();
-        int j = 0;
+        unsigned int j = 0;
         //changing all the parameters to type string.
         while (vectors.getFacts()[i].getParameters().size() > j) {
             tuples.push_back((vectors.getFacts()[i].getParameters()[j]).getParameter());
@@ -101,8 +101,4 @@ Relation Interpreter::evaluatePredicate(Predicate p) {
 }
 
 
-
-string Interpreter::toString() {
-
-}
 
