@@ -173,6 +173,7 @@ CMakeFiles/project_1.dir/StringAutomaton.cpp.o: ../Token.h
 CMakeFiles/project_1.dir/Token.cpp.o: ../Token.cpp
 CMakeFiles/project_1.dir/Token.cpp.o: ../Token.h
 
+CMakeFiles/project_1.dir/Tuple.cpp.o: ../Header.h
 CMakeFiles/project_1.dir/Tuple.cpp.o: ../Tuple.cpp
 CMakeFiles/project_1.dir/Tuple.cpp.o: ../Tuple.h
 

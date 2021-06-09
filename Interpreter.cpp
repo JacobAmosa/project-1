@@ -43,7 +43,55 @@ Interpreter::Interpreter(DatalogProgram allVectors) {
         tuples.clear();
     }
 
+    //Evaluating each Rule predicate before getting passed to queries.
+    unsigned int  preCount;
+    unsigned int postCount;
+    unsigned int loopCount = 0;
+    cout << "Rule Evaluation" << endl;
+    do {
+        preCount = 0;
+        postCount = 0;
+        for (pair<const string, Relation>& x: relationsMap.getDatabase()){
+            preCount += x.second.getTupleSet().size();
+        }
+        for (unsigned int i = 0; i < vectors.getRules().size(); ++i) {
+            cout << vectors.getRules()[i].toString() << endl;
+            Relation rulesRelation;
+            for (unsigned int j = 0; j < vectors.getRules()[i].getBodyPredicates().size(); ++j) {
+                //rulesRelation = relationsMap.findDatabase(vectors.getRules()[i].getBodyPredicates()[j].getIdName());
+                //only calling join function when there is more than one body predicate.
+                if (j > 0) {
+                    rulesRelation = rulesRelation.join(evaluatePredicate(vectors.getRules()[i].getBodyPredicates()[j]));
+                } else {
+                    rulesRelation = evaluatePredicate(vectors.getRules()[i].getBodyPredicates()[j]);
+                }
+            }
+
+            //Looping through rulesRelation to find matching columns and call project function.
+            vector<int> matchingIndex;
+            for (unsigned int j = 0; j < vectors.getRules()[i].getHeadPredicate().getParameters().size(); ++j) {
+                for (unsigned int k = 0; k < rulesRelation.getHeader().getAttributes().size(); ++k) {
+                    if (vectors.getRules()[i].getHeadPredicate().getParameters()[j].getParameter() ==
+                        rulesRelation.getHeader().getAttributes()[k]) {
+                        matchingIndex.push_back(k);
+                    }
+                }
+            }
+            rulesRelation = rulesRelation.project(matchingIndex);
+            relationsMap.findDatabase(vectors.getRules()[i].getHeadPredicate().getIdName()).unite(rulesRelation);
+            rulesRelation.clearRelation();
+            matchingIndex.clear();
+        }
+        for (pair<const string, Relation>& x: relationsMap.getDatabase()){
+            postCount += x.second.getTupleSet().size();
+        }
+        loopCount++;
+    }
+    while(preCount != postCount);
+    cout << endl << "Schemes populated after " << loopCount << " passes through the Rules." << endl << endl;
+
     //Evaluating each query and calling evaluatePredicate for each individual predicate.
+    cout << "Query Evaluation" << endl;
     for (unsigned int i = 0; i < vectors.getQueries().size(); ++i){
         cout << vectors.getQueries()[i].toString() << "? ";
         relation = evaluatePredicate(vectors.getQueries()[i]);
@@ -93,7 +141,9 @@ Relation Interpreter::evaluatePredicate(Predicate p) {
     }
     newRelation = newRelation.project(projectColumns);
     newRelation.rename(variable);
-    //Clearing all the vectors and map for the next iteration.
+    variable.clear();
+    projectColumns.clear();
+    unseenVariables.clear();
     return newRelation;
 
 }

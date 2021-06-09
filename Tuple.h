@@ -2,6 +2,7 @@
 #define PROJECT_1_TUPLE_H
 #include <string>
 #include <vector>
+#include "Header.h"
 using namespace std;
 
 
@@ -16,6 +17,9 @@ public:
 
     vector<string> getValues();
     void setValues(vector<string> values);
+    void addValue(string value);
+    string getValue(int index);
+    void toString(Header header);
 };
 
 
